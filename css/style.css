@@ -56,7 +56,7 @@ body {
 h1 {
 	font-style: bold;
 	color: white;
-	position: fixed;
+	position: absolute;
 	margin-left: 50px;
 	z-index: 100;
 }
@@ -64,22 +64,17 @@ h1 {
 .intro {
 	background: url("../images/header_bg.jpg") no-repeat center top rgb(134,141,157);
 	background-size: cover;
-	text-align: center;
 	position: relative;
-	padding: 400px;
+	text-align: center;
+	padding: 100px;
+	height: 600px;
 }
 
 .intro .container h2 {
 	font-style: 600;
 	font-size: 36px;
 	color: white;
-	position: absolute;
-	width: 100%;
-	z-index: 100;
-	margin: 0 auto;
-    padding: 100px;
-    padding-right: 750px;
-    padding-left: 0;
+	position: relative;
 }
 
 .intro .container a {
@@ -90,23 +85,24 @@ h1 {
 	padding: 20px 70px;
 	border-radius: 5px;
 	position: relative;	
-	margin-top: 800px;
+	top: 100px;
 }
 
 .benefits {
 	background-color: #f0efef;
-	font-style: 300;
-	margin: 0;
+}
+
+.benefits .container {
 	position: relative;
 	display: block;
 	margin: 0px;
-	padding: 50px;
-
+	padding:100px;
 }
 
 .benefits h3 {
 	color: #033048;
 	font-style: bold;
+	font-size: 36px;
 	position: relative;
 	margin: 0;
 }
